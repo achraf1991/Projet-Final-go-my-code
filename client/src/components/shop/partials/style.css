@@ -1,0 +1,29 @@
+.userDropdown {
+  display: none;
+}
+
+.userDropdownBtn:hover .userDropdown {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  transition: all 1s;
+}
+#parent {
+  color: #fff;
+  padding: 20px;
+  width: 100%;
+  background-color: #ff6501;
+  text-align: center;
+}
+
+.fab {
+  padding: 20px;
+  font-size: 30px;
+  color: #fff;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none !important;
+}
